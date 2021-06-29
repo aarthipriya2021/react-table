@@ -1,13 +1,16 @@
 import './App.css';
-import { FilteringTable} from './component/FilteringTable';
+
 // import BasicTable from './component/BasicTable';
 // import SortingTable from './component/SortingTable';
+// import { FilteringTable} from './component/FilteringTable';
+import { PaginationTable} from './component/PaginationTable';
 function App() {
   return (
     <div className="App">
       {/* <BasicTable /> */}
         {/* <SortingTable /> */}
-          <FilteringTable />
+          {/* <FilteringTable /> */}
+            <PaginationTable />
     </div>
   );
 }
