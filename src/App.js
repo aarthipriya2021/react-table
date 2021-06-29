@@ -1,5 +1,5 @@
 import './App.css';
-import FilteringTable from './component/BasicTable';
+import { FilteringTable} from './component/FilteringTable';
 // import BasicTable from './component/BasicTable';
 // import SortingTable from './component/SortingTable';
 function App() {
