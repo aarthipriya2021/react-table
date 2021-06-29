@@ -74,7 +74,7 @@ const { pageIndex} = state;
                 </span>
                 <span>
                     | Go to page : {' '}
-                    <input type='number'defaultValue={pageIndex + 1} 
+                    <input type='number' defaultValue={pageIndex + 1} 
                     onChange={(e) => {
                         const pageNumber = e.target.value ? Number(e.target.value) - 1 : 0
                         gotoPage(pageNumber)
