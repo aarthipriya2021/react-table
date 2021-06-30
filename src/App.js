@@ -6,7 +6,10 @@ import './App.css';
 // import { FilteringTable} from './component/FilteringTable';
 // import { PaginationTable} from './component/PaginationTable';
 // import { RowSelection} from './component/RowSelection'; 
-import { ColumnOrder } from './component/ColumnOrder';
+// import { ColumnOrder } from './component/ColumnOrder';
+// import { ColumnHiding } from './component/ColumnHiding';
+import { StickyTable} from './component/StickyTable';
+
 
 function App() {
   return (
@@ -16,7 +19,9 @@ function App() {
           {/* <FilteringTable /> */}
             {/* <PaginationTable /> */}
               {/* <RowSelection /> */}
-                <ColumnOrder />
+                {/* <ColumnOrder /> */}
+                  {/* <ColumnHiding /> */}
+                    <StickyTable />
     </div>
   );
 }
